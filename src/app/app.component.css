@@ -1,0 +1,21 @@
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .head{
+    text-align: center;
+}
+
+.reddits {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:50px;
+    
+}
+
+.reddits > div {
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}

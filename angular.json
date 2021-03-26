@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "redditplay"
+    }
+  },
+  "defaultProject": "redditplay",
+  "cli": {
+    "analytics": false
+  }
 }
